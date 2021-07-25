@@ -1,8 +1,7 @@
-package com.company.task2;
+package com.exam3.task2;
 
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

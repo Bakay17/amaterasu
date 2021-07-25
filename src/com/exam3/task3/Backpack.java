@@ -1,6 +1,4 @@
-package com.company.task3;
-
-import org.w3c.dom.ls.LSOutput;
+package com.exam3.task3;
 
 public class Backpack {
     private int round;

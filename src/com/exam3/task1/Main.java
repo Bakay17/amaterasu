@@ -1,4 +1,4 @@
-package com.company.task1;
+package com.exam3.task1;
 
 import java.util.*;
 
