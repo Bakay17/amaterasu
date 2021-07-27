@@ -1,17 +1,14 @@
 package com.exam4.task2.model;
 
-import java.sql.Date;
 import java.sql.Timestamp;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 public class News {
     private Integer id;
     private String heading;
     private String text;
-    private Date dateOf;
+    private Timestamp dateOf;
 
-    public News(Integer id, String heading, String text, Date dateOf) {
+    public News(Integer id, String heading, String text, Timestamp dateOf) {
         this.id = id;
         this.heading = heading;
         this.text = text;
@@ -45,11 +42,21 @@ public class News {
         this.text = text;
     }
 
-    public Date getDateOf() {
+    public Timestamp getDateOf() {
         return dateOf;
     }
 
-    public void setDateOf(Date dateOf) {
+    public void setDateOf(Timestamp dateOf) {
         this.dateOf = dateOf;
+    }
+
+    @Override
+    public String toString() {
+        return "News{" +
+                "id=" + id +
+                ", heading='" + heading + '\'' +
+                ", text='" + text + '\'' +
+                ", dateOf=" + dateOf +
+                '}';
     }
 }
